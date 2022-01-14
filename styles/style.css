@@ -7,6 +7,9 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+h1, h2, p{
+  margin: 0;
   padding: 0;
 }
 /* ниже общее правило для подзаголовков шапки и футера*/
