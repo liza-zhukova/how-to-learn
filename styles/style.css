@@ -8,10 +8,6 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-h1, h2, p{
-  margin: 0;
-  padding: 0;
-}
 /* ниже общее правило для подзаголовков шапки и футера*/
 .subtitle{
   color:#000000;
@@ -60,6 +56,7 @@ h1, h2, p{
   z-index: 2;
 }
 .header__title{
+  margin: 0;
   width: 730px;
   margin: 64px;
   line-height: 96px;
@@ -70,6 +67,7 @@ h1, h2, p{
   z-index: 2;
 }
 .header__subtitle{
+  margin: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -156,6 +154,7 @@ h1, h2, p{
   margin-top: 60px;
 }
 .cell_heading{
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -163,13 +162,14 @@ h1, h2, p{
   margin-top: 0;
 }
 .cell_text{
+  margin: 0;
   margin-top: 20px;
 }
 .cell_text_last{
   margin-bottom: 0;
 }
 .feynman{
-  height: 890px;
+  min-height: 890px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -269,6 +269,9 @@ h1, h2, p{
   display: flex;
   flex-direction:column;
   justify-content: space-between;
+}
+.logo_place_footer{
+  height: 35px;
 }
 .footer__column_author{
   color: #f2f2f2;
