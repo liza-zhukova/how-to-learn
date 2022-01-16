@@ -57,6 +57,10 @@
   font-size: 18px;
   font-weight: normal;
 }
+.header__link{
+  color: #2f80ed;
+  text-decoration: none;
+}
 .header__main_illustration{
   width: 765px;
   height: 608px;
@@ -202,6 +206,8 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
 }
 .feynman__img{
   position: absolute;
@@ -311,6 +317,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: none;
 }
 .social-icon{
   width: 16px;
