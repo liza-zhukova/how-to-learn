@@ -8,27 +8,6 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-/* ниже общее правило для подзаголовков шапки и футера*/
-.subtitle{
-  color:#000000;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-/* правило для табличных текстов */
-.table_text{
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #000000;
-}
-/* правило для подзаголовков таблиц и текста для 1 таблицы*/
-.section-subtitle_text{
-  color: #000000;
-  font-size: 24px;
-  font-weight: normal;
-  line-height: 34px;
-}
 .content{
   display: flex;
   flex-direction: column;
@@ -73,6 +52,10 @@
   left: 64px;
   bottom: 30px;
   z-index: 2;
+  color:#000000;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 .header__main_illustration{
   width: 765px;
@@ -103,6 +86,9 @@
 }
 .brief_title{
   margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
   color:  #2f80ed;
 }
 .two-columns__main-text{
@@ -115,6 +101,10 @@
 }
 .main-text_paragraph{
   margin-top: 0;
+  color: #000000;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
   margin-bottom: 30px;
 }
 .paragraph_span-accent{
@@ -163,6 +153,10 @@
 }
 .cell_text{
   margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000000;
   margin-top: 20px;
 }
 .cell_text_last{
@@ -275,6 +269,9 @@
 }
 .footer__column_author{
   color: #f2f2f2;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
   margin-top: 18px;
   margin-bottom: 18px;
 }
