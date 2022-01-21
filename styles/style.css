@@ -140,6 +140,8 @@
 .table__cell{
   width: 250px;
   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
 }
 .table__heading{
   margin: 0;
@@ -147,7 +149,6 @@
   font-size: 24px;
   font-weight: bold;
   color: #000000;
-  margin-top: 0;
 }
 .table__text{
   margin: 0;
@@ -156,9 +157,6 @@
   font-weight: normal;
   color: #000000;
   margin-top: 20px;
-}
-.table__text_last{
-  margin-bottom: 0;
 }
 .feynman{
   min-height: 890px;
