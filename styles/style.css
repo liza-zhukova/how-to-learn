@@ -19,6 +19,7 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
+  overflow: hidden;
 }
 .logo{
   width: 183px;
@@ -105,11 +106,11 @@
   line-height: 34px;
   margin-bottom: 30px;
 }
-.two-columns__span-accent{
-  font-weight: bold;
-}
 .two-columns__paragraph:last-of-type {
   margin-bottom: 0;
+}
+.two-columns__span-accent{
+  font-weight: bold;
 }
 .section-title{
   width: 60%;
